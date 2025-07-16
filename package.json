@@ -1,0 +1,14 @@
+{
+  "name": "open-abap-rap",
+  "version": "1.0.0",
+  "description": "open-abap-rap",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@abaplint/cli": "^2.113.143"
+  }
+}
