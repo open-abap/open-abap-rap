@@ -23,6 +23,7 @@
     "check_syntax": true,
     "cloud_types": true,
     "space_before_colon": true,
+    "unnecessary_pragma": true,
     "space_before_dot": true,
     "align_parameters": true,
     "align_type_expressions": true,
