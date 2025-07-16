@@ -3,6 +3,11 @@
     "files": "/src/**/*.*"
   },
   "dependencies": [
+    {
+      "url": "https://github.com/open-abap/open-abap-core",
+      "folder": "/deps",
+      "files": "/src/**/*.*"
+    }
   ],
   "syntax": {
     "version": "Cloud",
@@ -17,6 +22,10 @@
     "check_include": true,
     "check_syntax": true,
     "cloud_types": true,
+    "space_before_colon": true,
+    "space_before_dot": true,
+    "align_parameters": true,
+    "align_type_expressions": true,
     "sy_modification": true,
     "global_class": true,
     "implement_methods": true,
