@@ -1,7 +1,4 @@
-CLASS cl_abap_behavior_handler DEFINITION
-  PUBLIC
-  INHERITING FROM cl_abap_behv
-  CREATE PUBLIC.
+CLASS cl_abap_behavior_handler DEFINITION PUBLIC INHERITING FROM cl_abap_behv CREATE PUBLIC.
 
   PUBLIC SECTION.
 
