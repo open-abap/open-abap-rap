@@ -1,0 +1,14 @@
+{
+  "name": "open-abap-rap",
+  "version": "1.0.0",
+  "description": "open-abap-rap",
+  "private": true,
+  "scripts": {
+    "test": "abaplint"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@abaplint/cli": "^2.113.143"
+  }
+}
