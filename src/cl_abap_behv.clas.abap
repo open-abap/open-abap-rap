@@ -55,8 +55,8 @@ CLASS cl_abap_behv DEFINITION PUBLIC CREATE PROTECTED.
       END OF co_key_name.
   PROTECTED SECTION.
 
-    CONSTANTS ms LIKE if_abap_behv_message=>severity VALUE if_abap_behv_message=>severity ##NO_TEXT.
-    CONSTANTS mc LIKE if_abap_behv=>cause VALUE if_abap_behv=>cause ##NO_TEXT.
+    CONSTANTS ms LIKE if_abap_behv_message=>severity VALUE if_abap_behv_message=>severity.
+    CONSTANTS mc LIKE if_abap_behv=>cause VALUE if_abap_behv=>cause.
 
     METHODS new_message
       IMPORTING
