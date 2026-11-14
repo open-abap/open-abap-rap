@@ -18,6 +18,6 @@ CLASS cx_rap_query_filter_no_range IMPLEMENTATION.
   ENDMETHOD.
 
   METHOD constructor.
-    RETURN. " todo, implement method
+    super->constructor( ).
   ENDMETHOD.
 ENDCLASS.

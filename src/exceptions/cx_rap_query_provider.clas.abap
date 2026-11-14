@@ -16,6 +16,7 @@ ENDCLASS.
 
 CLASS cx_rap_query_provider IMPLEMENTATION.
   METHOD constructor.
-    RETURN. " todo, implement method
+    super->constructor( previous = previous ).
+    if_t100_message~t100key = textid.
   ENDMETHOD.
 ENDCLASS.

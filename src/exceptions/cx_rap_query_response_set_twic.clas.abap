@@ -18,6 +18,6 @@ CLASS cx_rap_query_response_set_twic IMPLEMENTATION.
     RETURN. " todo, implement method
   ENDMETHOD.
   METHOD constructor.
-    RETURN. " todo, implement method
+    super->constructor( ).
   ENDMETHOD.
 ENDCLASS.
