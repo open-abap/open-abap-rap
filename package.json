@@ -9,6 +9,6 @@
   "author": "",
   "license": "",
   "dependencies": {
-    "@abaplint/cli": "^2.120.105"
+    "@abaplint/cli": "^2.120.122"
   }
 }
